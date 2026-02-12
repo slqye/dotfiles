@@ -1,9 +1,2 @@
 command = "/bin/bash"
-theme = Catppuccin Macchiato
-cursor-style = block
-shell-integration-features = no-cursor
-bell-features = no-attention, no-title
-font-size = 20
-window-width = 80
-window-height = 25
-font-family = "JetBrainsMono"
+config-file = basic.config
