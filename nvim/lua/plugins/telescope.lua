@@ -5,7 +5,6 @@ vim.pack.add({
 	}
 })
 
-local plugin = require("telescope")
 local builtin = require("telescope.builtin")
 local themes = require("telescope.themes")
 local theme = themes.get_dropdown()
