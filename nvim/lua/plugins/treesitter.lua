@@ -1,8 +1,7 @@
 vim.pack.add({
 	{
 		name="treesitter",
-		src="https://github.com/nvim-treesitter/nvim-treesitter",
-		version="main"
+		src="https://github.com/nvim-treesitter/nvim-treesitter"
 	}
 })
 

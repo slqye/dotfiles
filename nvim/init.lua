@@ -5,6 +5,7 @@ require("config.others")
 
 -- plugins
 require("plugins.treesitter")
+require("plugins.lspconfig")
 require("plugins.web_devicons")
 require("plugins.telescope")
 require("plugins.smear_cursor")
