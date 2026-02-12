@@ -1,7 +1,6 @@
 -- configs
 require("config.options")
 require("config.keymaps")
-require("config.lsps")
 require("config.others")
 
 -- plugins
