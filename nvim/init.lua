@@ -6,6 +6,7 @@ require("config.others")
 -- plugins
 require("plugins.nvim_web_devicons")
 require("plugins.telescope")
+require("plugins.smear_cursor")
 
 -- sartups
 vim.cmd("colorscheme catppuccin")

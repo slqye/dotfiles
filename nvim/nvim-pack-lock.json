@@ -2,18 +2,19 @@
   "plugins": {
     "nvim-web-devicons": {
       "rev": "746ffbb17975ebd6c40142362eee1b0249969c5c",
-      "src": "https://github.com/nvim-tree/nvim-web-devicons",
-      "version": "'master'"
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "plenary": {
       "rev": "b9fd5226c2f76c951fc8ed5923d85e4de065e509",
-      "src": "https://github.com/nvim-lua/plenary.nvim",
-      "version": "'master'"
+      "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "smear_cursor": {
+      "rev": "c85bdbb25db096fbcf616bc4e1357bd61fe2c199",
+      "src": "https://github.com/sphamba/smear-cursor.nvim"
     },
     "telescope": {
       "rev": "ad7d9580338354ccc136e5b8f0aa4f880434dcdc",
-      "src": "https://github.com/nvim-telescope/telescope.nvim",
-      "version": "'master'"
+      "src": "https://github.com/nvim-telescope/telescope.nvim"
     }
   }
 }
