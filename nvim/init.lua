@@ -6,6 +6,7 @@ require("config.others")
 -- plugins
 require("plugins.treesitter")
 require("plugins.lspconfig")
+require("plugins.plenary")
 require("plugins.web_devicons")
 require("plugins.telescope")
 require("plugins.smear_cursor")
@@ -14,5 +15,5 @@ require("plugins.smear_cursor")
 vim.lsp.enable("lua_ls")
 vim.lsp.enable("pylsp")
 
--- theme
+-- themes
 vim.cmd("colorscheme catppuccin")
