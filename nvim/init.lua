@@ -8,6 +8,7 @@ require("plugins.treesitter")
 require("plugins.lspconfig")
 require("plugins.plenary")
 require("plugins.web_devicons")
+require("plugins.gitsigns")
 require("plugins.telescope")
 require("plugins.smear_cursor")
 
