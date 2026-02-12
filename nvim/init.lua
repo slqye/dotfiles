@@ -4,8 +4,8 @@ require("config.keymaps")
 require("config.others")
 
 -- plugins
-require("plugins.nvim_treesitter")
-require("plugins.nvim_web_devicons")
+require("plugins.treesitter")
+require("plugins.web_devicons")
 require("plugins.telescope")
 require("plugins.smear_cursor")
 

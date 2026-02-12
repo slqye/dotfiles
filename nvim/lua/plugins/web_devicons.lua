@@ -1,6 +1,6 @@
 vim.pack.add({
 	{
-		name="nvim-web-devicons",
+		name="web-devicons",
 		src="https://github.com/nvim-tree/nvim-web-devicons"
 	}
 })
