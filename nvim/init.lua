@@ -10,6 +10,7 @@ require("plugins.lspconfig")
 require("plugins.mason")
 require("plugins.gitsigns")
 require("plugins.telescope")
+require("plugins.markview")
 require("plugins.smear_cursor")
 
 -- lsps
