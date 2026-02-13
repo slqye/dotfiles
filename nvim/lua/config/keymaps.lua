@@ -1,5 +1,5 @@
-vim.g.mapleader = " "
-vim.keymap.set("v", "J", ":m '>+1<cr>gv=gv")
-vim.keymap.set("v", "K", ":m '<-2<cr>gv=gv")
-vim.keymap.set("x", "<leader>p", "\"_dP")
-vim.keymap.set("n", "<leader>sd", "<cmd>lua vim.diagnostic.open_float()<cr>")
+vim.keymap.set("v", "J", ":m '>+1<cr>gv=gv", { desc = "move selection down" })
+vim.keymap.set("v", "K", ":m '<-2<cr>gv=gv", { desc = "move selection up" })
+vim.keymap.set("x", "<leader>p", "\"_dP", { desc = "paste without lossing buffer" })
+vim.keymap.set("n", "<leader>sd", "<cmd>lua vim.diagnostic.open_float()<cr>", { desc = "show cursor diagnostic" })
+vim.keymap.set("i", "<c-space>", vim.lsp.completion.get, { desc = "trigger autocompletion" })

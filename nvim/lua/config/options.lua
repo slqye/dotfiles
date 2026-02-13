@@ -1,3 +1,4 @@
+vim.g.mapleader = " "
 vim.opt.clipboard:append("unnamedplus")
 vim.opt.guicursor = ""
 vim.opt.tabstop = 4
@@ -13,3 +14,4 @@ vim.opt.list = true
 vim.opt.listchars = "tab:→ "
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.completeopt = { "menuone", "noselect", "popup" }
