@@ -1,0 +1,14 @@
+# environment
+export PATH+=":$HOME/.local/bin:$HOME/.local/app"
+export CLICOLOR=1
+
+# prompt
+function git_branch() {
+	local branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
+	[ -n "$branch" ] && echo " $branch"
+}
+
+symbol="➜"
+PS1="\[\e[1;36m\]slaye\[\e[0m\]:\w\[\e[1;36m\]\$(git_branch)\[\e[0m\] $symbol "
+
+# aliases
