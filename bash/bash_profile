@@ -12,3 +12,4 @@ symbol="➜"
 PS1="\[\e[1;36m\]slaye\[\e[0m\]:\w\[\e[1;36m\]\$(git_branch)\[\e[0m\] $symbol "
 
 # aliases
+alias ls="ls --color=auto"
