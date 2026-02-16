@@ -1,3 +1,4 @@
+vim.keymap.set("n", "<esc>", "<cmd>nohlsearch<cr>", { desc = "remove highlights" })
 vim.keymap.set("v", "J", ":m '>+1<cr>gv=gv", { desc = "move selection down" })
 vim.keymap.set("v", "K", ":m '<-2<cr>gv=gv", { desc = "move selection up" })
 vim.keymap.set("x", "<leader>p", "\"_dP", { desc = "paste without lossing buffer" })
