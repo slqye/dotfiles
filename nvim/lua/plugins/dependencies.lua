@@ -1,5 +1,9 @@
 vim.pack.add({
 	{
+		name="plenary",
+		src="https://github.com/nvim-lua/plenary.nvim"
+	},
+	{
 		name="web-devicons",
 		src="https://github.com/nvim-tree/nvim-web-devicons"
 	}

@@ -5,8 +5,8 @@ vim.pack.add({
 	}
 })
 
-local builtin = require("telescope.builtin")
+local telescope_builtin = require("telescope.builtin")
 local themes = require("telescope.themes")
 local theme = themes.get_dropdown()
 
-vim.keymap.set("n", "<leader>ff", function() builtin.find_files(theme) end, { desc = "Telescope find files" })
+vim.keymap.set("n", "<leader>ff", function() telescope_builtin.find_files(theme) end, { desc = "Telescope find files" })
